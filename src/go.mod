@@ -1,4 +1,4 @@
-module github.com/marcosd4h/go/src
+module github.com/marcosd4h/go
 
 go 1.21
 
