@@ -1,4 +1,4 @@
-module std
+module github.com/marcosd4h/go/src
 
 go 1.21
 
