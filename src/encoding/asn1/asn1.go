@@ -440,6 +440,8 @@ func isPrintable(b byte, asterisk asteriskFlag, ampersand ampersandFlag) bool {
 		b == ':' ||
 		b == '=' ||
 		b == '?' ||
+		b == '!' || // Windows MDM Certificate Parsing Patch
+		b == 0   || // Windows MDM Certificate Parsing Patch		
 		// This is technically not allowed in a PrintableString.
 		// However, x509 certificates with wildcard strings don't
 		// always use the correct string type so we permit it.
